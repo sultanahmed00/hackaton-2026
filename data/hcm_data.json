@@ -1,0 +1,233 @@
+{
+  "company_settings": {
+    "company_name": "Saylani Tech Solutions",
+    "office_start": "09:00",
+    "grace_minutes": 15,
+    "half_day_hours": 5,
+    "weekend_days": [
+      "Saturday",
+      "Sunday"
+    ],
+    "office_lat": 24.8607,
+    "office_lng": 67.0011,
+    "office_radius_meters": 150,
+    "late_penalty_enabled": true,
+    "late_penalty_rule": "3 lates = 0.5 day deduction"
+  },
+  "users": [
+    {
+      "id": "id_1792886577000_lf8fa",
+      "createdAt": "2026-10-25T00:02:57.000Z",
+      "updatedAt": "2026-10-25T00:02:57.000Z",
+      "name": "Saylani Admin",
+      "email": "admin@saylani.org",
+      "password_hash": "$2b$10$NUiNoYrlZOSYZliWb09Ef.W.owSbotwDN10/QwiFVugpsm0tXJ7Qe",
+      "role": "admin",
+      "employee_id": null,
+      "must_change_password": false,
+      "is_active": true
+    }
+  ],
+  "departments": [],
+  "designations": [],
+  "employees": [],
+  "leave_types": [
+    {
+      "id": "id_1792886577001_6e871",
+      "createdAt": "2026-10-25T00:02:57.001Z",
+      "updatedAt": "2026-10-25T00:02:57.001Z",
+      "name": "Annual Leave",
+      "code": "annual",
+      "yearly_quota": 14,
+      "paid": true,
+      "description": "Statutory annual paid leave"
+    },
+    {
+      "id": "id_1792886577003_5j23h",
+      "createdAt": "2026-10-25T00:02:57.003Z",
+      "updatedAt": "2026-10-25T00:02:57.003Z",
+      "name": "Sick Leave",
+      "code": "sick",
+      "yearly_quota": 8,
+      "paid": true,
+      "description": "Medical and sick leave"
+    },
+    {
+      "id": "id_1792886577005_0lo8w",
+      "createdAt": "2026-10-25T00:02:57.005Z",
+      "updatedAt": "2026-10-25T00:02:57.005Z",
+      "name": "Casual Leave",
+      "code": "casual",
+      "yearly_quota": 10,
+      "paid": true,
+      "description": "Short notice personal/casual leave"
+    },
+    {
+      "id": "id_1792886577007_ze9ml",
+      "createdAt": "2026-10-25T00:02:57.007Z",
+      "updatedAt": "2026-10-25T00:02:57.007Z",
+      "name": "Unpaid Leave",
+      "code": "unpaid",
+      "yearly_quota": null,
+      "paid": false,
+      "description": "Leave without pay"
+    }
+  ],
+  "public_holidays": [],
+  "attendance": [],
+  "leave_requests": [],
+  "payroll_runs": [
+    {
+      "id": "run_2026_5_1792886833941",
+      "createdAt": "2026-10-25T00:07:13.941Z",
+      "updatedAt": "2026-10-25T00:07:22.873Z",
+      "month": 5,
+      "year": 2026,
+      "status": "finalized",
+      "finalized_by": "id_1792886577000_lf8fa",
+      "finalized_at": "2026-10-25T00:07:22.873Z",
+      "total_gross": 0,
+      "total_deductions": 0,
+      "total_tax": 0,
+      "total_net": 0,
+      "employee_count": 0,
+      "created_by": "id_1792886577000_lf8fa"
+    },
+    {
+      "id": "run_2025_11_1792886860166",
+      "createdAt": "2026-10-25T00:07:40.166Z",
+      "updatedAt": "2026-10-25T00:07:46.953Z",
+      "month": 11,
+      "year": 2025,
+      "status": "finalized",
+      "finalized_by": "id_1792886577000_lf8fa",
+      "finalized_at": "2026-10-25T00:07:46.953Z",
+      "total_gross": 0,
+      "total_deductions": 0,
+      "total_tax": 0,
+      "total_net": 0,
+      "employee_count": 0,
+      "created_by": "id_1792886577000_lf8fa"
+    }
+  ],
+  "payslips": [],
+  "announcements": [],
+  "notifications": [],
+  "audit_logs": [
+    {
+      "id": "audit_1792886577009_yfej",
+      "createdAt": "2026-10-25T00:02:57.009Z",
+      "updatedAt": "2026-10-25T00:02:57.009Z",
+      "actor_id": "id_1792886577000_lf8fa",
+      "actor_name": "Saylani Admin",
+      "actor_role": "admin",
+      "action": "INITIALIZE",
+      "entity": "Company",
+      "entity_id": "settings",
+      "before_state": null,
+      "after_state": {
+        "company_name": "Saylani Tech Solutions",
+        "admin_email": "admin@saylani.org"
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:02:57.009Z"
+    },
+    {
+      "id": "audit_1792886577107_bsu3",
+      "createdAt": "2026-10-25T00:02:57.107Z",
+      "updatedAt": "2026-10-25T00:02:57.107Z",
+      "actor_id": "system",
+      "actor_name": "System Installer",
+      "actor_role": "system",
+      "action": "LOGIN",
+      "entity": "User",
+      "entity_id": "id_1792886577000_lf8fa",
+      "before_state": null,
+      "after_state": {
+        "email": "admin@saylani.org",
+        "role": "admin"
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:02:57.107Z"
+    },
+    {
+      "id": "audit_1792886833946_nvlf",
+      "createdAt": "2026-10-25T00:07:13.946Z",
+      "updatedAt": "2026-10-25T00:07:13.946Z",
+      "actor_id": "id_1792886577000_lf8fa",
+      "actor_name": "Saylani Admin",
+      "actor_role": "admin",
+      "action": "GENERATE_PAYROLL_DRAFT",
+      "entity": "Payroll",
+      "entity_id": "run_2026_5_1792886833941",
+      "before_state": null,
+      "after_state": {
+        "month": 5,
+        "year": 2026,
+        "totalGross": 0,
+        "totalNet": 0
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:07:13.946Z"
+    },
+    {
+      "id": "audit_1792886842880_83ji",
+      "createdAt": "2026-10-25T00:07:22.880Z",
+      "updatedAt": "2026-10-25T00:07:22.880Z",
+      "actor_id": "id_1792886577000_lf8fa",
+      "actor_name": "Saylani Admin",
+      "actor_role": "admin",
+      "action": "FINALIZE_PAYROLL",
+      "entity": "Payroll",
+      "entity_id": "run_2026_5_1792886833941",
+      "before_state": null,
+      "after_state": {
+        "finalized_at": "2026-10-25T00:07:22.873Z",
+        "month": 5,
+        "year": 2026
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:07:22.880Z"
+    },
+    {
+      "id": "audit_1792886860172_wqon",
+      "createdAt": "2026-10-25T00:07:40.172Z",
+      "updatedAt": "2026-10-25T00:07:40.172Z",
+      "actor_id": "id_1792886577000_lf8fa",
+      "actor_name": "Saylani Admin",
+      "actor_role": "admin",
+      "action": "GENERATE_PAYROLL_DRAFT",
+      "entity": "Payroll",
+      "entity_id": "run_2025_11_1792886860166",
+      "before_state": null,
+      "after_state": {
+        "month": 11,
+        "year": 2025,
+        "totalGross": 0,
+        "totalNet": 0
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:07:40.172Z"
+    },
+    {
+      "id": "audit_1792886866958_d808",
+      "createdAt": "2026-10-25T00:07:46.958Z",
+      "updatedAt": "2026-10-25T00:07:46.958Z",
+      "actor_id": "id_1792886577000_lf8fa",
+      "actor_name": "Saylani Admin",
+      "actor_role": "admin",
+      "action": "FINALIZE_PAYROLL",
+      "entity": "Payroll",
+      "entity_id": "run_2025_11_1792886860166",
+      "before_state": null,
+      "after_state": {
+        "finalized_at": "2026-10-25T00:07:46.953Z",
+        "month": 11,
+        "year": 2025
+      },
+      "ip_address": "::1",
+      "timestamp": "2026-10-25T00:07:46.958Z"
+    }
+  ],
+  "ai_logs": []
+}
